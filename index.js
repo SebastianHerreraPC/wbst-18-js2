@@ -44,3 +44,8 @@ let negativo = false;
 
 console.log(!positivo);
 console.log(!negativo);
+
+//and devolvera true cuando las dos variables booleanes sean verdaderas
+
+console.log(positivo && negativo);
+console.log(positivo && !negativo);
