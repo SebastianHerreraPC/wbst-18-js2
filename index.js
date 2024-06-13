@@ -34,3 +34,13 @@ if (precios < 1000) {
 } else {
   console.log("Algo esta pasando");
 }
+
+//NOT, AND Y OR
+
+let positivo = true;
+let negativo = false;
+
+//not convierte los true a false y los false a true
+
+console.log(!positivo);
+console.log(!negativo);
