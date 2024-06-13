@@ -20,3 +20,17 @@ if (lavariable) {
 } else {
   console.log("🙄");
 }
+
+//sentencia con varias condiciones
+
+let precios = 1000;
+
+if (precios < 1000) {
+  console.log("subio");
+} else if (precios > 1000) {
+  console.log("bajo");
+} else if (precios == 1000) {
+  console.log("esta igual");
+} else {
+  console.log("Algo esta pasando");
+}
