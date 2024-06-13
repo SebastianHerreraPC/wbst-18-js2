@@ -17,4 +17,6 @@ let lavariable = true;
 
 if (lavariable) {
   console.log("😬");
+} else {
+  console.log("🙄");
 }
