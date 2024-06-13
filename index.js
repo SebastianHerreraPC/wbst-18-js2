@@ -49,3 +49,8 @@ console.log(!negativo);
 
 console.log(positivo && negativo);
 console.log(positivo && !negativo);
+
+//or devolvera true cuando al menos una de las  variables booleanes sean verdaderas
+
+console.log(positivo || negativo);
+console.log(!positivo || negativo);
