@@ -64,3 +64,10 @@ if (year % 4 === 0) {
 } else {
   console.log(year + " No es bisiesto");
 }
+
+let year2 = 2019;
+if (year2 % 400 === 0 || (year2 % 4 === 0 && year2 % 100 !== 0)) {
+  console.log(year2 + " es año bisiesto");
+} else {
+  console.log(year2 + " No es bisiesto");
+}
