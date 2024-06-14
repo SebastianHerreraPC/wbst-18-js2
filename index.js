@@ -61,4 +61,6 @@ let year = 2024;
 
 if (year % 4 === 0) {
   console.log(year + " es año bisiesto");
+} else {
+  console.log(year + " No es bisiesto");
 }
