@@ -54,3 +54,11 @@ console.log(positivo && !negativo);
 
 console.log(positivo || negativo);
 console.log(!positivo || negativo);
+
+//ejercicio
+
+let year = 2024;
+
+if (year % 4 === 0) {
+  console.log(year + " es año bisiesto");
+}
